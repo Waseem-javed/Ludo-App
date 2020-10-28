@@ -1,0 +1,23 @@
+{
+  "name": "ludo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waseem-javed/Ludo-App.git"
+  },
+  "author": "waseemjaved",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waseem-javed/Ludo-App/issues"
+  },
+  "homepage": "https://github.com/Waseem-javed/Ludo-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
