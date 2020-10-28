@@ -45,9 +45,9 @@ document.querySelector(".btn-roll").addEventListener('click', function () {
         document.getElementById("dice-2").style.display =
             "block";
         document.getElementById("dice-1").src =
-            "dice-" + dice1 + ".png";
+            "/img/dice-" + dice1 + ".png";
         document.getElementById("dice-2").src =
-            "dice-" + dice2 + ".png";
+            "/img/dice-" + dice2 + ".png";
 
         // Update the round score if the roll no is not 1
         if (dice1 !== 1 && dice2 !== 1) {
